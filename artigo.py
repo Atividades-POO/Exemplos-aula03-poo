@@ -8,7 +8,7 @@ class Artigo: # classe Artigo
   def __init__(self, id, autor, preco): # inicializador
       self.titulo = id  # atributo
       self.autor = autor
-      self.data = preco
+      self.preco = preco
 
   def imprime(self, valor): # método de instância
       print(f"Id: {self.id}")
@@ -17,4 +17,3 @@ class Artigo: # classe Artigo
 
   def imprime2(self): # método de instância
     print(f"preço: {self.preco}")   # imprime o preço
-    
