@@ -24,3 +24,6 @@ class Colaborador:
     def calculaIdade(self): # Método de instância
         # Calcula a idade do colaborador
         return f"{self.nome}] tem {self.hoje.year - self.anoNascimento} anos" # Retorna a idade calculada
+
+    def futuro(self): # método para ser implementado no futuro
+        pass
