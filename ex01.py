@@ -16,9 +16,9 @@ class CalculadoraIdade:
         if planeta == 'Terra':
             return self.idade  # Retorna a idade calculada
         elif planeta == 'Mercurio':
-            return self.idade / .24 # Mercurio é um planeta muito mais veloz que a Terra
+            return self.idade * .24 # Mercurio é um planeta muito mais veloz que a Terra
         elif planeta == 'Venus':
-            return self.idade / .62
+            return self.idade * .62
         elif planeta == 'Marte':
             return self.idade * 1.88
         elif planeta == 'Jupiter':
