@@ -13,7 +13,7 @@ class Artigo: # classe Artigo
   def imprime(self, valor): # método de instância
       print(f"Id: {self.id}")
       print(f"Autor: {self.autor}")
-      print(f"preço: {self.preco + valor}") # soma o valor ao preço + valor
+      print(f"preço: {self.preco + valor}") # soma o valor ao preço
 
   def imprime2(self): # método de instância
     print(f"preço: {self.preco}")   # imprime o preço
