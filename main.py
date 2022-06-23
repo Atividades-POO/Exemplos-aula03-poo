@@ -36,3 +36,18 @@ c1.imprime() # vai imprimir todos os dados do colaborador c1
 # chama o método calculaIdade da instância c1
 c1.calculaIdade() # vai calcular a idade do colaborador c1 e vai atualizar o atributo idade
 
+#
+print("-" * 20)
+print()
+#####################################################
+
+# 3 - importe a classe CalculadoraIdade no arquivo calculadoraIdade.py e crie um alias para ela como CI
+from ex01 import CalculadoraIdade as CI
+
+# 3.1 crie uma instância da classe CalculadoraIdade
+ci1 = CI(1990) # cria um objeto da classe CalculadoraIdade com valor 1990
+# chame o método idadePlenaria da instância ci1
+print(ci1.idadeEmPlaneta('Terra')) # vai imprimir "32"
+print(ci1.idadeEmPlaneta('Marte')) # vai imprimir "60.16"
+print(ci1.idadeEmPlaneta('Jupiter')) # vai imprimir "379.9"
+print(ci1.idadeEmPlaneta('Saturno')) # vai imprimir "942.72"
