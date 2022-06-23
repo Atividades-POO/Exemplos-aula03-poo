@@ -11,7 +11,8 @@ a1.imprime2()
 
 #
 print("-" * 20)
-#
+print()
+#####################################################
 
 
 # 2 - importe a classe colocada no arquivo colaborador.py
