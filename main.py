@@ -1,5 +1,19 @@
 #
+# 1 - importe a classe criada no arquivo arquivo.py;
+from artigo import Artigo
+
+# 1.1 - crie um objeto da classe Artigo;
+a1 = Artigo(1, "Autor 1", 500)
+# chame o método imprime do objeto criado;
+a1.imprime(100)
+# chame o método imprime2 do objeto criado;
+a1.imprime2()
+
 #
+print("-" * 20)
+#
+
+
 # 2 - importe a classe colocada no arquivo colaborador.py
 from colaborador import Colaborador as C # crie um alias para a classe Colaborador como C
 
