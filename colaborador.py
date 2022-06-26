@@ -1,3 +1,10 @@
+#
+# Autores:
+# michel silva
+#
+#
+# data: 26/06/2022
+
 # importe a classe dataetime
 from datetime import date
 
