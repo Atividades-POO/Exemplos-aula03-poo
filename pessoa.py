@@ -1,4 +1,10 @@
 #
+# Autores:
+# michel silva
+#
+#
+# data: 26/06/2022
+#
 # criar a classe pessoa
 class Pessoa:
   pessoa1 = "padrão"
