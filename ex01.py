@@ -1,4 +1,10 @@
 #
+# Autores:
+# michel silva
+#
+#
+# data: 26/06/2022
+#
 # Implemente uma classe que seja uma calculadora para
 # estima qual seria a idade de uma pessoa em outros
 # planetas.
