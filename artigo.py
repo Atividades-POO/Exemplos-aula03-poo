@@ -1,4 +1,11 @@
 #
+# Autores:
+# michel silva
+#
+#
+# data: 26/06/2022
+#
+
 # classe Artigo
 class Artigo: # classe Artigo
   id = 0 # atributo
