@@ -1,4 +1,10 @@
 #
+# Autores:
+# michel silva
+#
+#
+# data: 26/06/2022
+#
 # 1 - importe a classe criada no arquivo arquivo.py;
 from artigo import Artigo
 
